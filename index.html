@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pr-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="https://kit.fontawesome.com/7271b5d267.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+    <nav class="header">
+        <img src="logo.png" alt="ss" title="Sil">
+        
+        <ul>               
+            <li><a href="index.html">Home </a><i class="fa-solid fa-house icon"></i></li>
+            <li><a href="https://wa.me/qr/KOHYVZ6VJRA5F1 " target="_blank">Contato </a><i class="fa-solid fa-phone-flip icon"></i></li>
+            <li><a href="https://github.com/SilSecrect">GitHub </a><i class="fa-brands fa-github icon"></i></li>
+           
+        </ul>
+        </nav>
+        
+    </header>
+  <section class="principal">
+
+    <section class="content">
+    <h3 class="text-h3">Calcular IMC</h3>
+        
+        <div class="conteudo">
+            <div class="itens">
+                <label for="nome">Nome:</label>
+                <input type="text" name="" id="nome" placeholder="Ex: Maria" required>
+            </div>
+            <div class="itens">
+                <label for="altura">Altura:</label>
+                 <input type="text" name="" id="altura" placeholder="Ex: 1,54" required>
+            </div>
+            <div class="itens">
+                <label for="peso">Peso:</label>
+                <input type="text" name="" id="peso" placeholder="Ex: 49,85" required>
+            </div>
+            <button class="button" type="button" onclick="carregar()">limpar</button>
+            <button class="button" type="button" onclick="calcular()">Calcular</button>
+        </div>
+
+        <textarea  id="resposta" cols="25" rows="3">
+            
+        </textarea>
+    </section>
+    <h1 class="h1">Nossa tabela Atualizada do IMC</h1>
+    <section id="lateral">
+        <table>
+            <tr>
+              <th>IMC</th>
+              <th>CATEGORIAS</th>
+            </tr>
+            <tr>
+              <td>Menos de 16</td>
+              <td>Baixo do Peso ( grau I )</td>
+            </tr>
+            <tr>
+              <td>Entre 16 e 16,99</td>
+              <td>Baixo do Peso ( grau II )</td>
+            </tr>
+            <tr>
+              <td>Entre 17 e 18,49</td>
+              <td>Baixo do Peso ( grau III )</td>
+            </tr>
+            <tr>
+              <td><b>Entre 18,50 e 24,99</b></td>
+              <td><b>Peso Adequado</b></td>
+            </tr>
+            <tr>
+              <td>Entre 25 e 29,99</td>
+              <td>Sobrepeso</td>
+            </tr>
+            <tr>
+              <td>Entre 30 e 34,99</td>
+              <td>Obesidade ( grau I )</td>
+            </tr>
+            <tr>
+              <td>Entre 35 e 39,99</td>
+              <td>Obesidade ( grau II )</td>
+            </tr>
+            <tr>
+              <td>A partir de 40</td>
+              <td>Obesidade ( grau III )</td>
+            </tr>
+          </table>
+    </section>
+
+</section>
+</body>
+</html>
