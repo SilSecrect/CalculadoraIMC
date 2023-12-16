@@ -21,7 +21,7 @@ if ((altura == 0) || (peso == 0) || (nome == 0)) {
     resposta.innerHTML = `Seu IMC é: ${resultado} . ${nome}, você esta Abaixo do peso ( grau III )`;
 
 }else if((resultado >= 18) && (resultado <= 24)){
-    resposta.innerHTML = `Seu IMC é: ${resultado}. ${nome}, você com o peso Adequado`;
+    resposta.innerHTML = `Seu IMC é: ${resultado}. ${nome}, você está com o peso Adequado`;
 
 }else if((resultado >= 25) && (resultado <= 29)){
     resposta.innerHTML = `Seu IMC é: ${resultado} . ${nome}, Você esta Sobrepeso`;
